@@ -8,5 +8,10 @@ namespace Full_GRASP_And_SOLID
         {
             File.WriteAllText("Recipe.txt", recipe.GetTextToPrint());
         }
+
+        public void PrintRecipe(ITextPrint textPrint)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
